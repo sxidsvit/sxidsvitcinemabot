@@ -1,0 +1,24 @@
+{
+  "name": "sxidsvitcinema-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "engines": {
+    "node": "13.8.0"
+  },
+  "author": "sxidsvit",
+  "license": "ISC",
+  "dependencies": {
+    "geolib": "^3.2.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
