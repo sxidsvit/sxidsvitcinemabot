@@ -1,0 +1,1 @@
+heroku restart --app sxidsvitcinemabot 
